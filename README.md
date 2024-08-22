@@ -1,6 +1,6 @@
 Pequeno código PHP em que estabeleço um conexão com um banco de dados SQL, com o intuito de inserir informações na tabela praticadb.
 
-Para rodar em sua máquina, crie uma tabela no seu SGBD com o seguinte comando:
+Para rodar em sua máquina, crie uma tabela no seu banco de dados (no nosso caso, praticadb) com o seguinte comando:
 
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
