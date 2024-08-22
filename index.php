@@ -9,8 +9,9 @@
 
     /*Condição if que estabelece a condição maior
     que 0 (retornos do comando SQL), para iniciar
-    um loop while. Esse por sua vez, armazena e printa
-    no navegador do usuário, algumas informações selecionadas da tabela.*/
+    um loop while. Esse por sua vez, armazena e
+    printa no navegador do usuário algumas informações
+    selecionadas da tabela, usando dados associados à variável $linha.*/
     if(mysqli_num_rows($resultado) > 0){
         while($linha = mysqli_fetch_assoc($resultado)){
             echo $linha["id"] . "<br>";
