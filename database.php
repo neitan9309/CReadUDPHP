@@ -3,7 +3,7 @@
     $db_server = "localhost";
     $db_user = "root";
     $db_pass = "";
-    $db_name = "usuarios";
+    $db_name = "praticadb";
     $conn = "";
 
     /*Função mysqli_connect, que serve para estabelecer
